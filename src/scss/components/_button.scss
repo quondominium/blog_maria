@@ -1,0 +1,26 @@
+.btn-wrapper {
+	padding: 80px;
+	background: map-deep-get($color, 'lighten-orphan');
+	.btn {
+		display: block;
+		margin: 20px auto;
+    	color: map-deep-get($color, 'first-base');
+    	background-color: transparent;
+	    text-transform: uppercase;
+	    border-radius: 10px;
+	    max-width: 320px;
+	    text-align: center;
+	    font-weight: 700;
+	    padding: 10px 0;
+	    border: 1px solid  map-deep-get($color, 'first-base');
+	    transition: color, background-color, border-color 300ms ease;
+	    &:hover {
+		color: map-deep-get($color, 'lighten-orphan');
+	    background-color: map-deep-get($color, 'first-base');
+	    border-color: map-deep-get($color, 'lighten-orphan');
+		}
+	}
+	@include media("<phone") {
+		padding: 80px 10px;	
+	}	    
+}

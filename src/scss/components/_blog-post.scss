@@ -1,0 +1,10 @@
+.blog-post {
+	
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}

@@ -1,0 +1,14 @@
+.title {
+	text-align: center;
+	line-height: 1;
+	padding-bottom: 80px;
+	margin: 0;
+	
+	.meta {
+		display: block;
+		color: map-deep-get($color, 'darken-orphan');
+		font-size: 14px;
+		font-style: italic;
+		padding-top: 15px;
+	}
+}

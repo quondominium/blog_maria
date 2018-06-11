@@ -1,0 +1,23 @@
+.page-heading {
+	.container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.title {
+		line-height: 1;
+		text-align: center;
+		margin: 0;
+		.image {
+			&:after {
+			content: '';
+			display: block;
+			width: 150px;
+			border-top: 4px solid map-deep-get($color, 'lighten-orphan');
+			margin: 10px auto;
+		}
+			img {
+				vertical-align: top;
+			}
+		}
+	}
+}

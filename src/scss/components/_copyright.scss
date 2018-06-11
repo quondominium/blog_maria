@@ -1,0 +1,11 @@
+.copyright {
+	text-align: center;
+	margin-bottom: 0;
+	&:before {
+		content: '';
+		display: block;
+		max-width: 388px;
+		border-top: 1px solid map-deep-get($color, 'lighten-orphan');
+		margin: 0 auto 10px;
+	}
+}
